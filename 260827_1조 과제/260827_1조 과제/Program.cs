@@ -9,6 +9,7 @@ public class Program
         
         yeSeul();
 
+        
         Console.WriteLine("=== 소개 끝 ===");  
     }
 
