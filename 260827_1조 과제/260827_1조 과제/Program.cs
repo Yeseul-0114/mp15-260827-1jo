@@ -4,10 +4,18 @@ public class Program
 {  
     public static void Main()  
     {  
-        Console.WriteLine("=== N조 팀원 소개 ===");
+
+        Console.WriteLine("=== 1조 팀원 소개 ===");   
+        yeSeul();
         WooUngIntroduction();
 
+        
         Console.WriteLine("=== 소개 끝 ===");  
+    }
+  
+    public static void yeSeul()
+    {
+        Console.WriteLine("YeSeul-0114 / 메플 15기 훈련생 1조 손예슬입니다.");
     }
 
     public static void WooUngIntroduction()
